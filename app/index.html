@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Todo App</h1>
+      <form id="todoForm">
+        <input
+          type="text"
+          id="inputTask"
+          placeholder="Enter things to do"
+          onkeyup="enableBtn()"
+          required
+        />
+        <button type="submit" id="addBtn" class="btn">Add</button>
+      </form>
+      <ul id="taskList"></ul>
+      <div id="taskDone"></div>
+    </div>
+  </body>
+</html>

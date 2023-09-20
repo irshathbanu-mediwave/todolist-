@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Playfair+Display:ital@1&family=Poppins:ital@0;1&display=swap");
+body {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background-color: gainsboro;
+}
+
+.wrapper {
+  margin: auto;
+  margin-top: 50px;
+  border: 50px solid white;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+  font-size: 14px;
+  color: whitesmoke;
+  background-image: conic-gradient(#1fbfb8, #05716c, #1978a5, #031163);
+}
+.btn {
+  background-color: white;
+}
+li {
+  padding: 8px 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  user-select: none;
+}
+
+.form-check-input {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+
+#taskList {
+  border-bottom: 1px solid #fff;
+}
